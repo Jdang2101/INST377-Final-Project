@@ -25,7 +25,7 @@
     font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’, ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
     font-weight: 400;
     line-height: 1.5;
-    background-color: rgb(79, 179, 255);
+    background-color: rgb(239, 196, 196);
   }
   
   
@@ -87,8 +87,8 @@
     /* this will push other blocks out of the way */
   
     /* colors */
-    background-color: #64fce7;
-    color: #4a4a4a;
+    background-color: #cf0000;
+    color: #ffffff;
   
     /* shapes */
     border-radius: 6px;
@@ -112,7 +112,7 @@
   */
   
   .box {
-    background-color: rgba(128, 217, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
     border: 2px dashed;
     border-radius: 4px;
   
@@ -123,14 +123,14 @@
   }
   
   .left_section {
-    background-color: rgba(2, 162, 206, 0.8);
+    background-color: rgba(206, 26, 2, 0.8);
     flex: 0 1 auto;
     margin: 1rem;
     padding: 1.5rem;
   }
   
   .right_section {
-    background-color: rgba(89, 253, 182, 0.7);
+    background-color: rgba(253, 114, 89, 0.7);
     flex: 1 2 auto;
     margin: 1rem;
     align-items: center;
@@ -148,7 +148,7 @@
   .footer {
     flex-shrink: 0;
     padding: 1rem;
-    background-color: rgba(0, 171, 206, 0.8);
+    background-color: rgba(206, 27, 0, 0.8);
     font-size: 1.2rem;
     font-weight: 600;
     border: 2px dashed;
@@ -156,7 +156,7 @@
   }
   
   .footer a {
-    color: rgba(255, 224, 138, 1);
+    color: rgb(255, 255, 255);
     text-decoration: underline;
   }
   
@@ -169,7 +169,7 @@
     /* Hue, saturation, luminosity, alpha */
     background-color: hsla(0, 0%, 90%, 0.15);
     /* red, green, blue, alpha */
-    color: rgb(246, 169, 93);
+    color: rgb(255, 255, 255);
     text-decoration: none;
   }
   
