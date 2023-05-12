@@ -1,0 +1,50 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header"><h1>PokéDex</h1></header>
+      <!-- Wrapper -->
+      <div class="container">
+        <!-- Wrapper -->
+        <div class="left_section box">
+          <!-- left inputs -->
+          <h2>PokéDex Search</h2>
+          <form class="box main_form">
+            <div>
+              <label for="poke">Search That Pokémon</label>
+              <!-- <input class="searchBar" type="text" name="poke" /> -->
+              <input class="poke" type="number" placeholder="Pokedex Number" value="" maxlength="3" min="1" max="898"></input>
+            </div> 
+            <div class="buttons">
+              <button type="submit" id="filter_button">Search</button>
+            </div>
+          </form>
+        </div>
+        <div class="right_section box">
+          <!-- right inputs -->
+          <!-- images box -->
+          <h3>Pokémon Name</h3>
+          <ol class="box">
+            <!-- description box -->
+            <ol class="box">
+              <!-- description box -->
+              <img class="imageDisplay"/>
+            </ol>
+          </ol>
+          <ol class="box">
+            <!-- description box -->
+            Description Of Pokémon
+          </ol>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
