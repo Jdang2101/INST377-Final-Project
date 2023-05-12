@@ -17,14 +17,13 @@
           <!-- left inputs -->
           <h2>PokéDex Search</h2>
           <form class="box main_form">
-            <button type="button" id="data_load">Load Pokémon Data</button>
             <div>
-              <label for="resto">Search That Pokémon</label>
-              <input type="text" name="resto" id="resto" />
+              <label for="poke">Search That Pokémon</label>
+              <!-- <input class="searchBar" type="text" name="poke" /> -->
+              <input class="poke" type="number" placeholder="Pokedex Number" value="" maxlength="3" min="1" max="898"></input>
             </div> 
-            <div class="'buttons">
-              <button type="submit" id="filter_button">Filter Data</button>
-              <button type="button" id="generate">Generate List</button>
+            <div class="buttons">
+              <button type="submit" id="filter_button">Search</button>
             </div>
           </form>
         </div>
@@ -32,21 +31,17 @@
           <!-- right inputs -->
           <!-- images box -->
           <h3>Pokémon Name</h3>
-          <ol class="box" id="restaurant_list">
+          <ol class="box">
             <!-- description box -->
-            <h3>Image Of Pokémon</h3>
-            <ol class="box" id="restaurant_list">
+            <ol class="box">
               <!-- description box -->
-              Description Of Pokémon
+              <img class="imageDisplay"/>
             </ol>
           </ol>
-          <h3>Pokémon Name</h3>
-          <ol class="box" id="restaurant_list">
+          <ol class="box">
             <!-- description box -->
             Description Of Pokémon
           </ol>
-          <div class="lds-ellipsis" id="data_load_animation">
-          </div>
         </div>
       </div>
     </div>
